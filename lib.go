@@ -7,7 +7,7 @@ type Livro struct {
 }
 
 // NovoLivro constroi um livro
-func NovoLivro(publicadoEm int, titulo string) *Livro {
+func NovoLivro(titulo string, publicadoEm int) *Livro {
 	return &Livro{
 		publicadoEm: publicadoEm,
 		titulo: titulo,
